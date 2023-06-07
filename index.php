@@ -7,7 +7,6 @@
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/style.css">
     <link rel="shortcut icon" href="./img/logo_resized_resized_resized.png" type="image/x-icon">
-    <!-- <script src="https://kit.fontawesome.com/018c5a3238.js" crossorigin="anonymous"></script> -->
     <script src="/slide.js" defer></script>
     <title>HOME</title>
 </head>
@@ -24,11 +23,6 @@
                     <a href="/php/login.php">LOGIN</a>
                 </nav>
             </div>
-            <!-- <div class="sociais">
-                <a href="#">
-                    <button><i class="fa-brands fa-whatsapp"></i></button>
-                </a> -->
-                
             </div>
         </div>
     </header>  <!--FIM DA BARRA SUPERIOR-->
@@ -81,20 +75,16 @@
         <section class="text-ab">
             <details>
                 <summary>NOSSA HISTORIA</summary>
-                <p><a href="/html/sobre.html">VENHA SABER NOSSA HISTORIA</a></p>
+                <p><a href="/sobre.html">VENHA SABER NOSSA HISTORIA</a></p>
             </details>
             <details>
                 <summary>MEIOS DE CONTATOS</summary>
-                <p><a href="/html/contatos.html">SUPORTE</a></p>
+                <p><a href="/contatos.html">SUPORTE</a></p>
             </details>
             <details>
                 <summary>NOSSAS OFERTAS</summary>
-                <p><a href="/html/ofertas.html">VENHA SABER NOSSA HISTORIA</a></p>
+                <p><a href="/ofertas.html">VENHA SABER NOSSA HISTORIA</a></p>
             </details>
-            <!-- <details>
-                <summary></summary>
-                <p><a href="#">VENHA SABER NOSSA HISTORIA</a></p>
-            </details> -->
         </section>
        </center> <!--Fim da lista dropdrown-->
 

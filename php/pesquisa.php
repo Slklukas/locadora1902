@@ -116,7 +116,7 @@
 
     function searchData()
     {
-        window.location = 'sistema.php?search='+search.value;
+        window.location = 'sistem_veic.php?search='+search.value;
     }
 </script>
 </html>

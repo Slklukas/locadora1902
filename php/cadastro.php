@@ -11,7 +11,7 @@ if(isset($_POST['submit']))
     $cidade = $_POST['cidade'];
     $estado = $_POST['estado'];
 
-    $result = mysqli_query($conexao, "INSERT INTO usuarios(nome,senha,email,telefone,sexo,data_nasc,cidade,estado,endereco) 
+    $result = mysqli_query($conexao, "INSERT INTO usuarios(nome,senha,email,telefone,sexo,cidade,estado) 
     VALUES ('$nome','$senha','$email','$telefone','$sexo','$cidade','$estado')");
 
     header('Location: login.php');
