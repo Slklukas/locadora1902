@@ -11,7 +11,7 @@
     if(!empty($_GET['search']))
     {
         $data = $_GET['search'];
-        $sql = "SELECT * FROM veiculos WHERE id LIKE '%$data%' or nome LIKE '%$data%' or email LIKE '%$data%' ORDER BY id DESC";
+        $sql = "SELECT * FROM veiculos WHERE id LIKE '%$data%' or descricao LIKE '%$data%' or marca LIKE '%$data%' or modelo LIKE '%$data%' or ano LIKE '%$data%' or tipo ORDER BY id DESC";
     }
     else
     {
@@ -64,15 +64,6 @@
         echo "<h1>Bem vindo <u>$logado</u></h1>";
     ?>
     <br>
-    <div class="box-search">
-        <input type="search" class="form-control w-25" placeholder="Digite a Pesquisa" id="pesquisar">
-        <button onclick="searchData()" class="btn btn-primary">
-            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-            </svg>
-        </button>
-    </div>
-    <div class="m-5">
         <table class="table text-white table-bg">
             <thead>
                 <tr>
@@ -126,7 +117,7 @@
 
     function searchData()
     {
-        window.location = 'sistema.php?search='+search.value;
+        window.location = 'sistema_veic.php?search='+search.value;
     }
 </script>
 </html>
