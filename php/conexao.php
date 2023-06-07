@@ -5,10 +5,10 @@
     $dbPassword = 'EGC4KYFZ9G';
     $dbName = 'sql9624165';
 
-    $dbHost = '127.0.0.1';
-    $dbUsarname = 'root';
-    $dbPassword = '';
-    $dbName = 'login';
+    // $dbHost = '127.0.0.1';
+    // $dbUsarname = 'root';
+    // $dbPassword = '';
+    // $dbName = 'login';
 
 
     $conexao = new mysqli($dbHost, $dbUsarname, $dbPassword, $dbName);
